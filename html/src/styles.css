@@ -1,0 +1,145 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner h1 {
+    font-size: 2em;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+.content h2 {
+    font-size: 1.5em;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.center-content {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.coffee-image {
+    width: 50px; /* Adjust the image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Adjust as needed */
+    /* Update the background image URL */
+    background-image: url('coffeePicture.jpg');
+}
+
+body {
+    color: white;
+    background-image: url('coffeeBeans.jpg'); /* Image was borrowed from
+    the following URL: https://www.amazon.com/s?k=coffee+beans+wallpaper&adgrpid=1333709987139747&hvadid=83357133927317&hvbmt=be&hvdev=c&hvlocphy=83588&hvnetw=o&hvqmt=e&hvtargid=kwd-83357909629038%3Aloc-190&hydadcr=29704_14560162&tag=mh0b-20&ref=pd_sl_4amdhrs7ss_e
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+}
+
+.logo-text {
+    margin-top: 5px; /* Adjust as needed */
+    color: white;
+    font-weight: bold;
+}
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto; /* Shift the container to the right */
+}
+
+.coffee-banner {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.banner-text {
+    margin-top: 5px; /* Adjust as needed */
+    color: white;
+    font-weight: bold;
+}
+
+
+
